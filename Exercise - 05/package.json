@@ -1,0 +1,19 @@
+{
+  "name": "exercise---05",
+  "version": "1.0.0",
+  "description": "Exercise given by Panaverse.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "nothing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme"
+}
