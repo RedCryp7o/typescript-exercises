@@ -11,7 +11,8 @@ console.log("Dear ".concat(friends_names.pop(), ", We are sorry to say that we c
 console.log("Dear ".concat(friends_names.pop(), ", We are sorry to say that we can't invite you for Dinner."));
 console.log("Dear ".concat(friends_names.pop(), ", We are sorry to say that we can't invite you for Dinner.\n\n"));
 for (var i = 0; i < friends_names.length; i++) {
-    console.log("Dear ".concat(friends_names, ", You are still invited.\n\n"));
+    console.log("Dear ".concat(friends_names[i], ", You are still invited."));
 }
-friends_names = [];
+friends_names.pop();
+friends_names.pop();
 console.log(friends_names);
