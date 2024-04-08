@@ -1,6 +1,10 @@
+// Version 01
 var alien_color = "Green";
 if (alien_color === "Green") {
-    console.log("You just Earned 5 Points.");
+    console.log("Player just Earned 5 Points.");
 }
-else {
+// Version 02
+var alien_color1 = "Red";
+if (alien_color1 === "Green") {
+    console.log("Player just Earned 5 Points.");
 }

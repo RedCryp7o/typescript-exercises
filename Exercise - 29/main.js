@@ -1,16 +1,16 @@
-var favorite_fruits = ["mango", "apple", "banana"];
-if (favorite_fruits.includes("mango")) {
-    console.log("You really like mango!");
+var favorite_fruits = ['banana', 'apple', 'orange'];
+if (favorite_fruits.includes('banana')) {
+    console.log("You really like bananas!");
 }
-else if (favorite_fruits.includes("apple")) {
-    console.log("You really like apple!");
+if (favorite_fruits.includes('apple')) {
+    console.log("You really like apples!");
 }
-else if (favorite_fruits.includes("banana")) {
-    console.log("You really like banana!");
+if (favorite_fruits.includes('orange')) {
+    console.log("You really like oranges!");
 }
-else if (favorite_fruits.includes("guava")) {
-    console.log("You really like guava!");
+if (favorite_fruits.includes('strawberry')) {
+    console.log("You really like strawberries!");
 }
-else if (favorite_fruits.includes("kiwi")) {
-    console.log("You really like kiwi!");
+if (favorite_fruits.includes('kiwi')) {
+    console.log("You really like kiwis!");
 }
